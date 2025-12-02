@@ -2,7 +2,7 @@ import sys
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print('Usage: python3 day1.py <input.txt>')
+        print(f'Usage: python3 {sys.argv[0]} <input.txt>')
         exit(0)
 
     with open(sys.argv[1], 'r') as f:
